@@ -802,6 +802,7 @@ input[type="submit"] {
     border: none;
     font-size: 22px;
     margin-top: 2%;
+    color: #000;
 }
 
 /* back-button */
@@ -820,6 +821,7 @@ input[type="submit"] {
     font-size: 33px;
     opacity: 0;
     transition: all .3s ease-in;
+    z-index: 1;
 }
 
 #back-btn:hover {
