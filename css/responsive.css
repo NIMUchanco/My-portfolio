@@ -56,10 +56,6 @@
         font-size: 16px;
     }
 
-    .submit-btn {
-        font-size: 22px;
-    }
-
     .close-modal {
         margin-bottom: 3%;
     }
@@ -70,7 +66,7 @@
     }
 
     #top-wrapper h1 {
-        padding-top: 35vh;
+        padding-top: 31vh;
         font-size: 45px;
     }
 
@@ -254,7 +250,7 @@
         font-size: 15px;
     }
 
-    .submit-btn {
+    .submit-btn input {
         font-size: 20px;
     }
 
@@ -264,7 +260,7 @@
     }
 
     #top-wrapper h1 {
-        padding-top: 30vh;
+        padding-top: 26vh;
         font-size: 35px;
     }
     
@@ -316,6 +312,16 @@
         width: 65px;
         height: 65px;
     }
+
+    /* Footer */
+    .footer-nav a {
+        font-size: 20px;
+        margin-top: 2.5%;
+    }
+
+    .copyright {
+        font-size: 18px;
+    }
 }
 
 /* Smartphone size */
@@ -351,11 +357,6 @@
         margin-bottom: 2%;
     }
 
-    .footer-nav a {
-        font-size: 22px;
-        margin-top: 2.5%;
-    }
-
     #back-btn {
         width: 70px;
         height: 70px;
@@ -374,7 +375,7 @@
     }
 
     #top-wrapper h1 {
-        padding-top: 26vh;
+        padding-top: 21vh;
         font-size: 32px;
     }
 
@@ -409,6 +410,38 @@
     
     #back-btn:hover {
         font-size: 33px;
+    }
+}
+
+
+@media screen and (max-width: 442px) {
+    /* Top */
+    #top-wrapper h1 {
+        font-size: 30px;
+    }
+
+    /*About*/
+    .title h1 {
+        font-size: 30px;
+    }
+
+    /*FAQ*/
+    #faq-list {
+        font-size: 20px;
+    }
+
+    /*Contact*/
+    .submit-btn input {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    .footer-nav a {
+        font-size: 18px;
+    }
+
+    .copyright {
+        font-size: 16px;
     }
 }
 
