@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script type="text/javascript" src="./js/jquery-3.6.1.min.js" defer></script>
+  <script type="text/javascript" src="./js/script.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+<div id="particles-js"></div>
+<div id="wrapper">
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+      <div class="header-logo">
+          <img class="top-btn logo" src="./images/logo-bl.png" alt="LOGO">
+      </div>
+      <nav class="nav-menu">
+        <a href="#about-wrapper">About</a>
+        <a href="#projects-wrapper">Portfolio</a>
+        <a href="#faq-wrapper">FAQ</a>
+        <a href="#contact-wrapper">Contact</a>
+        <div class="btn-wrapper">
+          <div class="btn small-btn signup-show">Sign up</div>
+        </div>
+      </nav>
+
+      <!--Menu for small screen size-->
+      <div class="openbtn"><span></span><span></span><span></span></div>
+
+      <div id="nav-mask"></div>
+
+    </div>
+  </header>
+
+  <!-- MODAL -->
+  <div class="overlay"></div>
+  <div class="signup-modal-wrapper" id="signup-modal">
+    <div class="modal">
+      <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+      <div id="signup-form">
+        <h2>Sign up with email</h2>
+        <p>This is just a demo.</p>
+        <form action="#">
+          <input class="form-control" type="text" placeholder="EMAIL">
+          <input class="form-control" type="password" placeholder="PASSWORD">
+          <div>
+            <div class="submit-btn btn close-modal">Sign up</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- TOP -->
+    <section id="top-wrapper">
+      <div class="container">
+        <h1 class="textAnime">MAIKO MATSUOKA</h1>
+        <p class="textAnime">Frontend developer / Web designer / Illustrator</p>
+      </div>
+    </section>
+
+    <!-- About me . -->
+    <section id="about-wrapper">
+      <div class="container frame1 slideIn">
+        <div class="title">
+          <h1 class="line-animation">About me <span>.</span></h1>
+        </div>
+        <div class="about-descriptions">
+          <div class="about-description">
+            <div class="description-box box-1 slideIn">
+              <p class="delay-time textAnime">Skills</p>
+            </div>
+            <div class="description-text">
+              <p class="textSlide">HTML<br>CSS<br>JavaScript</p>
+            </div>
+          </div>
+
+          <div class="about-description">
+            <div class="description-box box-2 slideIn">
+              <p class="delay-time textAnime">Profile</p>
+            </div>
+            <div class="description-text">
+              <p class="textSlide">Adaptive<br>Autonomous<br>Responsible</p>
+            </div>
+          </div>
+
+          <div class="about-description">
+            <div class="description-box box-3 slideIn">
+              <p class="delay-time textAnime">Education</p>
+            </div>
+            <div class="description-text">
+              <p class="textSlide">Bachelor's<br>degree in<br>International<br>Liberal Arts</p>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- My projects . -->
+    <section id="projects-wrapper">
+      <div class="container frame2 slideIn">
+        <div class="title">
+          <h1 class="line-animation">My Portfolio <span>.</span></h1>
+        </div>
+
+        <!-- WEBSITE -->
+        <!--<div class="website-wrapper slideIn">
+          <div class="website-box">
+            <a href="#">
+              <span class="mask">
+                <img src="./images/company-photo.jpg" alt="Company website">
+                <span class="cap">
+                  <p>Company<br>website</p>
+                </span>
+              </span>
+            </a>
+          </div>
+
+          <div class="website-box">
+            <a href="#">
+              <span class="mask">
+                <img src="./images/cafe-photo.jpg" alt="Cafe website">
+                <span class="cap">
+                  <p>Cafe<br>website</p>
+                </span>
+              </span>
+            </a>
+          </div>
+
+          <div class="website-box">
+            <a href="#">
+              <span class="mask">
+                <img src="./images/school-photo.jpg" alt="School website">
+                <span class="cap">
+                  <p>School<br>website</p>
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>-->
+
+        <!-- ILLUSTRATION-->
+        <div class="illusration-wrapper slideIn">
+          <div class=slide>
+            <ul class=items>
+              <li class="item current"><img src="./images/girlandcat.PNG"></li>
+              <li class=item><img src="./images/kimonogirl.PNG"></li>
+              <li class=item><img src="./images/girlandpc1.PNG"></li>
+              <li class=item><img src="./images/twogirls.PNG"></li>
+            </ul>
+            <div class=buttons>
+              <button type=button id=prev class="button prev"><i class="fas fa-chevron-left"></i></button>
+              <button type=button id=next class="button next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class=dots>
+              <button type=button class="dot current"></button>
+              <button type=button class=dot></button>
+              <button type=button class=dot></button>
+              <button type=button class=dot></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FAQ . -->
+    <section id="faq-wrapper">
+      <div class="container frame1 slideIn">
+        <div class="title">
+          <h1 class="line-animation">FAQ <span>.</span></h1>
+        </div>
+        <div class="faq textAnime">
+          <ul id="faq-list">
+            <li class="faq-list-item">
+              <h3 class="question">How did I become interested in the web industry?</h3>
+              <span>+</span>
+              <div class="answer">
+                <p>I originally worked in the education industry and hoped to start my own business as a teacher in the future. Therefore, I wanted to create my own website, and this is what got me interested in the web industry and programming.</p>
+              </div>
+            </li>
+            <li class="faq-list-item">
+              <h3 class="question">What is my work experience?</h3>
+              <span>+</span>
+              <div class="answer">
+                <p>After graduating from university, I worked as a teacher and sales representative at a language school in Japan for two years. After that, I worked as a Japanese teacher in Canada for over two years. After teaching myself web design and coding, I created a website for a Canadian startup company.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact . -->
+    <section id="contact-wrapper">
+      <div class="container frame2 slideIn">
+        <div class="title">
+          <h1 class="line-animation">Contact me <span>.</span></h1>
+          <p class="textAnime">This is just a demo. Please contact me through Linkedin.</p>
+        </div>
+
+        <div class="contact-form">
+          <form class="slideIn" action="#" method="post">
+            <div class="form-inner">
+              <input class="input-name" type="text" name="name" placeholder="NAME">
+              <input class="input-email" type="email" name="email" placeholder="EMAIL">
+              <textarea class="input-message" name="message" rows="4" placeholder="MESSAGE"></textarea>
+            </div>
+            <div class="submit-btn">
+              <input class="btn" type="submit" name="submit" value="SEND">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="back-button">
+        <a id="back-btn" class="top-btn"><i class="fab fa-fly"></i></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div id="footerTextAnime" class="container">
+        <div class="nav-menu footer-nav">
+          <a href="#about-wrapper">About</a>
+          <a href="#projects-wrapper">Portfolio</a>
+          <a href="#faq-wrapper">FAQ</a>
+          <a href="#contact-wrapper">Contact</a>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2023 Maiko Matsuoka</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+  <script>
+  VANTA.FOG({
+    el: "#top-wrapper",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    speed: 2.00,
+    zoom: 0.50
+  })
+  </script>
+</div>
+</body>
+</html>

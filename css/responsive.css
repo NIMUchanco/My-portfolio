@@ -1,0 +1,452 @@
+/* RESPONSIVE */
+/* PC sizze */
+@media screen and (max-width: 1200px) {
+    /*Back bottun*/
+    #back-btn {
+        right: 20px;
+        bottom: 25px;
+    }
+
+    /*Contact me.*/
+    #contact-wrapper .container {
+        padding-bottom: 4%;
+    }
+    
+    .form-inner input, textarea {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    /*Header*/
+    header {
+        height: 70px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    .nav-menu > a {
+        font-size: 27px;
+        line-height: 70px;
+    }
+
+    .btn {
+        line-height: 70px;
+        font-size: 22px;
+    }
+
+    /*Modal*/
+    .modal {
+        width: 400px;
+        padding: 7% 0 3% 0;
+    }
+
+    #signup-form h2 {
+        font-size: 25px;
+    }
+
+    #signup-form p {
+        font-size: 22px;
+    }
+
+    #signup-form input {
+        font-size: 16px;
+    }
+
+    .submit-btn {
+        font-size: 22px;
+    }
+
+    .close-modal {
+        margin-bottom: 3%;
+    }
+
+    /* Top */
+    #top-wrapper {
+        height: 79.9vh;
+    }
+
+    #top-wrapper h1 {
+        padding-top: 35vh;
+        font-size: 45px;
+    }
+
+    .title h1 {
+        font-size: 40px;
+    }
+
+    /*About me .*/
+    .description-box p {
+        font-size: 30px;
+    }
+
+    .description-text p {
+        font-size: 27px;
+    }
+
+    /*My projects*/
+    /*Illustration*/
+    .buttons .next {
+        padding: .5% 1.5% .5% 2%;
+    }
+
+    .buttons .prev {
+        padding: .5% 2% .5% 1.5%;
+    }
+
+    /*FAQ*/
+    #faq-list {
+        font-size: 25px;
+    }
+
+    /*Contact me.*/
+    .form-inner input, textarea {
+        width: 65%;
+        padding: 2%;
+        margin-bottom: 4%;
+    }
+
+    #back-btn {
+        width: 80px;
+        height: 80px;
+        font-size: 33px;
+    }
+
+    #back-btn:hover {
+        background: #FFBC57;
+        font-size: 36px;
+    }
+}
+
+/* Tablet size */
+@media screen and (max-width: 830px) {
+    /*Header*/
+    /*Menu for small screen size*/
+    .nav-menu {
+        position: absolute;
+        right: 0;
+        top: -400px;
+        flex-direction: column;
+        background: rgba(239, 225, 225, .4);
+        width: 300px;
+        margin: 0;
+        transition: .8s ease-in-out;
+        z-index: 10;
+    }
+
+    .nav-menu > a {
+        width: 250px;
+    }
+
+    .btn-wrapper {
+        margin: 0;
+    }
+
+    .small-btn {
+        display: block;
+        width: 300px;
+        padding: 0;
+        background: none;
+        border: none;
+        box-shadow: none;
+        font-size: 27px;
+    }
+
+    .small-btn:hover {
+        width: 300px;
+        height: auto;
+        background: #B6E4C6;
+        border-radius: 0;
+        box-shadow: none;
+        position: relative;
+        bottom: 3px;
+    }
+    
+    .small-btn:active {
+        width: 300px;
+        background: #B6E4C6;
+        border-radius: 0;
+        box-shadow: none;
+        position: relative;
+        top: 0;
+    }
+
+    .openbtn {
+        display: block;
+    }
+
+    .nav-menu.openNav {
+        transform: translateY(470px);
+    }
+    
+
+    /*Modal*/
+    .modal {
+        width: 380px;
+    }
+
+    .modal i {
+        font-size: 30px;
+    }
+
+    #signup-form input {
+        width: 70%;
+    }
+
+    .close-modal {
+        margin-bottom: 2%;
+    }
+
+    /*My projects .*/
+    /*Illustration*/
+    .illusration-wrapper {
+        margin: 7% 5%;
+    }
+
+    /*Contact me.*/
+    .form-inner input, textarea {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+
+    /*Footer*/
+    .footer-nav {
+        display: contents;
+    }
+    
+    .footer-nav a {
+        display: table-cell;
+        padding-top: 1.5%;
+    }
+
+    #back-btn {
+        right: 10px;
+        bottom: 10px;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    /*Modal*/
+    .modal {
+        width: 350px;
+        padding-top: 5%;
+    }
+
+    .modal i {
+        font-size: 28px;
+    }
+
+    #signup-form h2 {
+        font-size: 23px;
+        margin-top: 5%;
+    }
+
+    #signup-form p {
+        font-size: 20px;
+    }
+
+    #signup-form input {
+        font-size: 15px;
+    }
+
+    .submit-btn {
+        font-size: 20px;
+    }
+
+    /* Top */
+    #top-wrapper {
+        height: 69.9vh;
+    }
+
+    #top-wrapper h1 {
+        padding-top: 30vh;
+        font-size: 35px;
+    }
+    
+    #top-wrapper p {
+        font-size: 28px;
+    }
+
+    .title h1 {
+        font-size: 35px;
+    }
+
+    /*About me .*/
+    .description-box p {
+        font-size: 28px;
+    }
+
+    .description-text p {
+        font-size: 25px;
+    }
+
+    /*My projects .*/
+    /*Illustration*/
+    .illusration-wrapper {
+        margin: 10% 0;
+    }
+
+    /*FAQ*/
+    #faq-list {
+        font-size: 22px;
+    }
+
+    /*Contact me.*/
+    #contact-wrapper p {
+        font-size: 20px;
+        margin: 2% 0 8% 0;
+    }
+
+    .form-inner input, textarea {
+        width: 80%;
+        padding: 2.5%;
+        margin-bottom: 5%;
+    }
+
+    .button input {
+        font-size: 18px;
+    }
+
+    #back-btn {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+/* Smartphone size */
+@media screen and (max-width: 560px) {
+    /*Modal*/
+    #signup-form input {
+        width: 75%;
+    }
+    
+    /* Top */
+    #top-wrapper p {
+        font-size: 26px;
+    }
+
+    /*My projects*/
+    /*Illustration*/
+    .buttons .next {
+        padding: .5% 2% .5% 2.5%;
+    }
+
+    .buttons .prev {
+        padding: .5% 2.5% .5% 2%;
+    }
+
+    /*Contact me.*/
+    .form-inner input, textarea {
+        width: 95%;
+        padding: 2.5%;
+        margin-bottom: 5%;
+    }
+
+    .button input {
+        margin-bottom: 2%;
+    }
+
+    .footer-nav a {
+        font-size: 22px;
+        margin-top: 2.5%;
+    }
+
+    #back-btn {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*Modal*/
+    .close-modal {
+        margin-bottom: 3%;
+    }
+
+    /* Top */
+    #top-wrapper {
+        height: 59.9vh;
+    }
+
+    #top-wrapper h1 {
+        padding-top: 26vh;
+        font-size: 32px;
+    }
+
+    #top-wrapper p {
+        font-size: 24px;
+    }
+
+    .title h1 {
+        font-size: 33px;
+    }
+
+    /*My projects .*/
+    .website-box {
+        height: 150px;
+    }
+
+    .website-box img {
+        width: 250px;
+        height: 150px;
+    }
+
+    /*Illustration*/
+    .illusration-wrapper {
+        margin: 10% 0 15% 0;
+    }
+
+    #back-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+    
+    #back-btn:hover {
+        font-size: 33px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    /*Modal*/
+    .modal {
+        width: 300px;
+        padding-top: 3%;
+    }
+
+    .modal i {
+        font-size: 26px;
+    }
+
+    #signup-form h2 {
+        margin-top: 10%;
+    }
+
+    #signup-form input {
+        width: 80%;
+    }
+
+    .close-modal {
+        margin-bottom: 4%;
+    }
+
+    /*My projects .*/
+    /*Illustration*/
+    .illusration-wrapper {
+        margin: 15% 0 17% 0;
+    }
+
+    .buttons .next {
+        padding: .8% 2.5% .5% 3%;
+    }
+
+    .buttons .prev {
+        padding: .8% 3% .5% 2.5%;
+    }
+}
