@@ -37,6 +37,7 @@ $(function() {
     $('.close-modal, .overlay').click(function(){
         $('#signup-modal').fadeOut();
         $('.overlay').removeClass('show');
+        $('#nav-mask').removeClass('openNav');
     });
 
     //Responsive
